@@ -4,8 +4,11 @@
 		<title>
 			<meta charset="utf-8">
 			</title> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script>
-	window.onload=init;
+	$(document).ready(function(){
+		init();
+		})
 		function init(){
 			var planet=document.getElementById("planetaverde");
 			planet.innerHTML="alerta roja: tenemos un incendio!";
